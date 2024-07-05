@@ -1,0 +1,99 @@
+.App {
+  background-image: url("../data/images/images.6.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.App h1 {
+  margin-top: 100px;
+  margin-bottom: 40px;
+  font-size: 4em;
+  color: white;
+  text-align: center;
+}
+
+.signup-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-size: small;
+}
+
+.signup-container p {
+  padding: 10px;
+  margin: 20px 0;
+  line-height: 1;
+  font-size: 2em;
+  color: white;
+}
+
+.quote-form2 {
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.quote-form2 h3 {
+  font-size: 1.8em;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.quote-form2 input[type="text"],
+.quote-form2 input[type="email"] {
+  background: transparent #666;
+  width: calc(80% - 10px);
+  height: 50px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1.1em;
+}
+
+.quote-form2 button {
+  background-color: rgb(212, 193, 169);
+  height: 50px;
+  width: calc(80% - 10px);
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.quote-form2 button:hover {
+  background-color: rgb(224, 216, 206);
+}
+
+.privacy-container a:hover {
+  color: #4c5e71;
+}
+
+@media (max-width: 480px) {
+  .signup-container h1 {
+    font-size: 2em;
+    margin-top: 20px;
+  }
+
+  .quote-form2 {
+    padding: 20px;
+  }
+
+  .quote-form2 h3 {
+    font-size: 1.5em;
+  }
+
+  .quote-form2 input[type="text"],
+  .quote-form2 input[type="email"] {
+    font-size: 1em;
+  }
+
+  .quote-form2 button {
+    font-size: 1em;
+  }
+}
